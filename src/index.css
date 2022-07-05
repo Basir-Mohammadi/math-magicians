@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: burlywood;
+  /* background-color: burlywood; */
   display: grid;
   place-content: center;
   height: 100vh;
@@ -14,10 +14,10 @@ body {
 
 .container {
   height: 80vh;
-  width: 50vh;
-  background-color: black;
-  border-radius: 1rem;
-  padding: 1rem;
+  width: 60vh;
+  background-color: rgb(210, 204, 212);
+  /* border-radius: 1rem; */
+  padding: 0.3rem;
   box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.5);
 }
 
@@ -27,7 +27,7 @@ body {
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  gap: 10px;
+  gap: 3px;
 }
 
 .screen {
@@ -43,7 +43,7 @@ body {
   display: grid;
   place-content: center;
   background-color: rgb(54, 52, 52);
-  border-radius: 50%;
+  /* border-radius: 50%; */
   color: white;
   cursor: pointer;
   font-weight: bold;
@@ -73,7 +73,7 @@ body {
 
 .zero {
   grid-column: 1 / span 2;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   place-content: unset;
   align-items: center;
   padding-left: 1.8rem;
