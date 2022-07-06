@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /build
+/calc.txt
 /.pnp
 .pnp.js
 
