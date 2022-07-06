@@ -1,35 +1,40 @@
-import React from 'react';
-// eslint-disable-next-line react/prefer-stateless-function
-class Calculator extends React.Component {
-  render() {
-    return (
-      <>
-        <div className="container">
-          <div className="wrapper">
-            <div className="screen"> 0</div>
-            <div className="btn light-gray">AC</div>
-            <div className="btn light-gray">%</div>
-            <div className="btn light-gray">+/-</div>
-            <div className="btn orange">/</div>
-            <div className="btn">7</div>
-            <div className="btn">8</div>
-            <div className="btn">9</div>
-            <div className="btn orange">x</div>
-            <div className="btn">4</div>
-            <div className="btn">5</div>
-            <div className="btn">6</div>
-            <div className="btn orange">-</div>
-            <div className="btn">1</div>
-            <div className="btn">2</div>
-            <div className="btn">3</div>
-            <div className="btn orange">+</div>
-            <div className="btn zero">0</div>
-            <div className="btn">.</div>
-            <div className="btn orange">=</div>
-          </div>
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
+
+function Calculator() {
+  const [state, setState] = useState(0);
+  const handleClick = (event) => {
+    setState((state) => calculate(state, event.target.textContent));
+  };
+  return (
+    <div>
+      <div className="container">
+        <div className="wrapper">
+          <div className="screen">{state.next || state.total || 0}</div>
+          <button type="button" className="btn light-gray" onClick={handleClick}>AC</button>
+          <button type="button" className="btn light-gray" onClick={handleClick}>%</button>
+          <button type="button" className="btn light-gray" onClick={handleClick}>+/-</button>
+          <button type="button" className="btn orange" onClick={handleClick}>/</button>
+          <button type="button" className="btn" onClick={handleClick}>7</button>
+          <button type="button" className="btn" onClick={handleClick}>8</button>
+          <button type="button" className="btn" onClick={handleClick}>9</button>
+          <button type="button" className="btn orange" onClick={handleClick}>x</button>
+          <button type="button" className="btn" onClick={handleClick}>4</button>
+          <button type="button" className="btn" onClick={handleClick}>5</button>
+          <button type="button" className="btn" onClick={handleClick}>6</button>
+          <button type="button" className="btn orange" onClick={handleClick}>-</button>
+          <button type="button" className="btn" onClick={handleClick}>1</button>
+          <button type="button" className="btn" onClick={handleClick}>2</button>
+          <button type="button" className="btn" onClick={handleClick}>3</button>
+          <button type="button" className="btn orange" onClick={handleClick}>+</button>
+          <button type="button" className="btn zero" onClick={handleClick}>0</button>
+          <button type="button" className="btn" onClick={handleClick}>.</button>
+          <button type="button" className="btn orange" onClick={handleClick}>=</button>
         </div>
-      </>
-    );
-  }
+      </div>
+    </div>
+  );
 }
+//   }
+// }
 export default Calculator;
