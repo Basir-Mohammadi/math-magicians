@@ -3,7 +3,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This is a website that allows users to add/remove today's todo from a list. This project is build using JavaScript objects and arrays.
+> Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations and Read a random math-related quote.
 
 
 ## Built With
