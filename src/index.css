@@ -7,7 +7,6 @@
 body {
   display: grid;
   place-content: center;
-  height: 100vh;
   font-size: 2rem;
 }
 
@@ -17,6 +16,12 @@ body {
   background-color: rgb(210, 204, 212);
   padding: 0.3rem;
   box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.5);
+}
+
+.container-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .wrapper {
@@ -74,4 +79,32 @@ body {
   place-content: unset;
   align-items: center;
   padding-left: 1.8rem;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.navbar .links {
+  margin-left: 29rem;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  border-left: 2px solid grey;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+  border-left: 2px solid #f1356d;
 }
