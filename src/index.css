@@ -5,9 +5,7 @@
 }
 
 body {
-  display: grid;
-  place-content: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .container {
@@ -19,9 +17,9 @@ body {
 }
 
 .container-wrapper {
-  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
+  margin: 2rem 3rem;
 }
 
 .wrapper {
@@ -87,14 +85,11 @@ body {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #f2f2f2;
+  justify-content: space-between;
 }
 
 .navbar h1 {
   color: #f1356d;
-}
-
-.navbar .links {
-  margin-left: 29rem;
 }
 
 .navbar a {
@@ -107,4 +102,22 @@ body {
 .navbar a:hover {
   color: #f1356d;
   border-left: 2px solid #f1356d;
+}
+
+.home {
+  margin: 2rem;
+}
+
+.home h2 {
+ margin-bottom: 10px;
+}
+
+.home p {
+  margin: 2rem;
+}
+
+.quote {
+  text-align: center;
+  width: 50%;
+  margin: 10rem;
 }

@@ -4,8 +4,8 @@ function Navbar() {
       <h1> Math Magicians </h1>
       <div className="links">
         <a href="/">Home</a>
-        <a href="/Create">Calculator</a>
-        <a href="/Create">Quote</a>
+        <a href="/App">Calculator</a>
+        <a href="/Quote">Quote</a>
       </div>
     </nav>
   );
