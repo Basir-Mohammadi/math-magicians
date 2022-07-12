@@ -7,7 +7,10 @@ function Calculator() {
     setState((state) => calculate(state, event.target.textContent));
   };
   return (
-    <div>
+    <div className="container-wrapper">
+      <div className="math">
+        <h2>let`s do some math!</h2>
+      </div>
       <div className="container">
         <div className="wrapper">
           <div className="screen">{state.next || state.total || 0}</div>

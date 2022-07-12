@@ -5,10 +5,7 @@
 }
 
 body {
-  display: grid;
-  place-content: center;
-  height: 100vh;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .container {
@@ -17,6 +14,12 @@ body {
   background-color: rgb(210, 204, 212);
   padding: 0.3rem;
   box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.5);
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 3rem;
 }
 
 .wrapper {
@@ -74,4 +77,47 @@ body {
   place-content: unset;
   align-items: center;
   padding-left: 1.8rem;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  border-left: 2px solid grey;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+  border-left: 2px solid #f1356d;
+}
+
+.home {
+  margin: 2rem;
+}
+
+.home h2 {
+  margin-bottom: 10px;
+}
+
+.home p {
+  margin: 2rem;
+}
+
+.quote {
+  text-align: center;
+  width: 50%;
+  margin: 10rem;
 }
