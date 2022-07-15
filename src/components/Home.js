@@ -1,42 +1,20 @@
+// import Image from './mathematics-png.jpg';
+
 function Home() {
   return (
     <div className="home">
       <h2>Welcome to our page!</h2>
-      <div className="paragraph">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Earum ipsum tempore, ea soluta
-          tenetur expedita dignissimos similique deleniti doloribus fugiat!
-          Necessitatibus, sint
-          doloribus deserunt voluptates impedit cumque alias,
-          aperiam illo dolore explicabo iure
-          culpa distinctio inventore perspiciatis sunt ipsam
-          atque.Lorem ipsum dolor sit amet consectetur, adipi
-          sicing elit. Earum ipsum tempore, ea soluta
-          tenetur expedita dignissimos similique deleniti
-          doloribus fugiat! Necessitatibus, sint
-          doloribus deserunt voluptates impedit cumque alias,
-          aperiam illo dolore explicabo iure
-          culpa distinctio inventore perspiciatis sunt ipsam a
-          tque.
+      <div className="body">
+        <p className="paragraph">
+          Mathematics is an area of knowledge that includes such topics as numbers,
+          formulas and related structures,
+          shapes and the spaces in which they are contained, and quantities and their changes.
+          Most mathematical activity involves discovering
+          and proving properties of abstract objects by pure reasoning.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Earum ipsum tempore, ea soluta
-          tenetur expedita dignissimos similique deleniti doloribus fugiat!
-          Necessitatibus, sint
-          doloribus deserunt voluptates impedit cumque alias,
-          aperiam illo dolore explicabo iure
-          culpa distinctio inventore perspiciatis sunt ipsam
-          atque.Lorem ipsum dolor sit amet consectetur, adipi
-          sicing elit. Earum ipsum tempore, ea soluta
-          tenetur expedita dignissimos similique deleniti
-          doloribus fugiat! Necessitatibus, sint
-          doloribus deserunt voluptates impedit cumque alias,
-          aperiam illo dolore explicabo iure
-          culpa distinctio inventore perspiciatis sunt ipsam a
-          tque.
-        </p>
+        <div className="image">
+          {/* <img src={Image} alt="mathImage" /> */}
+        </div>
       </div>
     </div>
   );
