@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live Heroku Demo](https://math2magician.herokuapp.com/)
+[Live Heroku Demo](https://math2magician.herokuapp.com/) <br>
 [Live Netlify Demo](https://math2magicians.netlify.app/)
 
 ## Author
