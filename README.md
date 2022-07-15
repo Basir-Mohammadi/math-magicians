@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live Demo](https://basirking.github.io/To-Do-List/)
+[Live Demo](https://math2magician.herokuapp.com/)
 
 ## Author
 
