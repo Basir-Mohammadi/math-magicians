@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to match the snapshot 1`] = `
+<div
+  className="quote"
+>
+  <p>
+     
+    Mathmatics is not about numbers,eauations, computations, or algorithms: it is about understanding.
+    <span
+      className="author"
+    >
+      -William Paul Thurston
+    </span>
+  </p>
+</div>
+`;

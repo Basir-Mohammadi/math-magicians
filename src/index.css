@@ -6,6 +6,7 @@
 
 body {
   font-size: 1.5rem;
+  background-color: rgb(206, 229, 208);
 }
 
 .container {
@@ -86,6 +87,8 @@ body {
   align-items: center;
   border-bottom: 1px solid #f2f2f2;
   justify-content: space-between;
+  background-color: rgb(197, 197, 175);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 .navbar h1 {
@@ -120,4 +123,15 @@ body {
   text-align: center;
   width: 50%;
   margin: 10rem;
+  box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.5);
+  background-color: rgb(230, 221, 196);
+  padding: 30px;
+  border-radius: 2%;
+}
+
+.paragraph {
+  box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.5);
+  background-color: rgb(230, 221, 196);
+  padding: 15px;
+  border-radius: 2%;
 }
